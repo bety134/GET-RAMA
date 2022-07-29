@@ -1,0 +1,50 @@
+body{
+    font-size: normal;
+}
+    
+
+
+h4{
+    color: rgb(243, 243, 247);
+    margin: 80px;
+    margin-left:25%;
+    margin-right:25%;
+    margin-left: 150px;
+}
+
+
+.registration-datos__submit {
+    width:50%;
+    margin: 80px;
+    margin-left:25%;
+    margin-right:25%;    
+}
+
+.uno{
+    color:rgb(243, 243, 247);
+    padding: 5px;
+}
+
+.dos{
+    color:rgb(243, 243, 247);
+    padding: 5px;
+
+}
+
+
+.tres{
+    color:rgb(243, 243, 247);
+    padding: 5px;
+}
+
+.cuatro{
+    color:rgb(243, 243, 247);
+    padding: 5px;
+}
+
+.registration-datos__success{
+    font-size: 30px;
+      color: rgb(216, 216, 232);
+      background-color: blue;
+      border-radius: 0.25em;
+  }

@@ -1,0 +1,63 @@
+/* Estilos del formulario base */
+.container{
+  padding: 40px 0;
+  }
+  .formulario-datos {
+      /*margin: 1em;*/
+      padding: 2em;
+    
+      border-radius: 0.5em;
+    
+      font-size: normal;
+    }
+  .card-body {
+    background-color: #8C52FF!important;
+  }
+    /* Estilos de las etiquetas */
+    .formulario-datos > label {
+      display: flex;
+      flex-direction: column;
+      color:#fff;
+      width: 100%;
+      align-items: flex-start;
+      font-weight: bold;
+    }
+    
+    /* Estilos de los campos de texto */
+    .formulario-datos > label > input {
+      width: 100%;
+      margin: 0.25em 0;
+      padding: 0.5em;
+      color: #222;
+      font-size: 12pt;
+    
+      border-radius: 0.25em;
+    }
+    
+    /* Estilos de los botones */
+    .formulario-datos__ingresar {
+      width: 200px;
+      margin-top: 1em;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0.5em;
+    
+      cursor: pointer;
+    }
+
+    
+    /* Estilo del mensaje de error */
+    .formulario-datos__error {
+      color: white;
+      background-color: red;
+      font-size: medium;
+      border-radius: 0.25em;
+    }
+    
+    /* Estilo del mensaje de éxito */
+    .formulario-datos__success {
+      color: white;
+      background-color: green;
+      font-size: medium;
+      border-radius: 0.25em;
+    }
